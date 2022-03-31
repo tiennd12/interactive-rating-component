@@ -119,7 +119,7 @@ function App() {
           <div className="result-container">
             {" "}
             <div>
-              <img src={iconThankYou} alt="" />
+              <img className="icon-ty" src={iconThankYou} alt="" />
             </div>
             <div className="result">
               <span>{`You selected ${numberSelected} out of 5`}</span>

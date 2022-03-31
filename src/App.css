@@ -99,6 +99,10 @@ button:hover {
     cursor: pointer;
 }
 
+.icon-ty {
+    margin-top: 20px;
+}
+
 .result-container {
     text-align: center;
 }
@@ -107,6 +111,6 @@ button:hover {
     color: hsl(25, 97%, 53%);
     background-color: hsl(213, 19%, 18%);
     padding: 5px 10px;
-    margin: 35px 80px;
+    margin: 30px 80px;
     border-radius: 25px;
 }
