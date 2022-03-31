@@ -1,31 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;400;700&display=swap');
 .App {
-    background-color: hsl(216, 12%, 8%);
+    background-color: rgba(0, 0, 0, 0.815);
     max-width: 1440px;
     height: 100vh;
     display: flex;
     align-items: center;
+    font-family: "Overpass", sans-serif;
 }
 
-.content {
-    max-width: 350px;
+.icon-star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(213, 19%, 18%);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px 0 40px;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.container {
+    width: 350px;
+    height: 350px;
     color: white;
     margin: auto;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10%;
-    background-color: hsl(217, 12%, 63%);
+    font-size: medium;
+    font-weight: 400;
+    /* background-color: hsl(213, 19%, 18%); */
+    background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+}
+
+.description {
+    font-weight: 300;
+    margin: 20px 0;
+    color: hsl(216, 12%, 54%);
 }
 
 .rating {
     display: flex;
     justify-content: space-between;
     margin: 5px;
-    align-items: center;
 }
 
 .number {
-    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: hsl(216, 12%, 54%);
+    background-color: hsl(213, 19%, 18%);
+    vertical-align: middle;
+    font-size: 15px;
     height: 25px;
     width: 25px;
     border-radius: 50%;
+    padding: 10px;
+}
+
+.number:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+    cursor: pointer;
+}
+
+.checked {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.checked:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+button {
+    padding: 10px 140px;
+    margin: 25px 0 15px;
+    border-radius: 25px;
+    border: none;
+    vertical-align: middle;
+    font-family: "Overpass", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: hsl(25, 97%, 53%);
+}
+
+button:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer;
+}
+
+.result-container {
     text-align: center;
+}
+
+.result {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    padding: 5px 10px;
+    margin: 35px 80px;
+    border-radius: 25px;
 }
